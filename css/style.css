@@ -2,3 +2,25 @@ body {
   background-color: #dadada;
   font-size: 10px;
 }
+
+.column {
+  display: grid;
+}
+
+.container {
+    margin: 1%;
+    width: 100%;
+  }
+
+  @media screen and (min-width: 991px){
+     div {
+      margin: 1%;
+      width: 100%;
+    }
+
+    @media screen and (min-width: 575px){
+       div {
+         margin: 1%;
+         width: 100%;
+       }
+       
