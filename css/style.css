@@ -8,19 +8,60 @@ body {
 }
 
 .container {
-    margin: 1%;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+body {
+  display: block;
+  font-family: sans-serif;
+  font-size: 75%;
+}
+
+h1.emphasis {
+  padding: 10px 0;
+}
+
+.baku {
+  background-image: url('../images/baku.jpg');
+}
+
+.london {
+  background-image: url('../images/london.png');
+}
+
+.madrid {
+  background-image: url('../images/madrid.jpg');
+}
+
+.rome {
+  background-image: url('../images/rome.jpg');
+}
+
+.preview {
+  min-height: 260px;
+  background-size: cover;
+}
+
+
+.preview h1 {
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+
+@media screen and (min-width: 575px){
+   .preview {
+      width: 40%;
+      display: inline-block;
+      margin-bottom: 5px;
+   }
+}
+
+@media screen and (min-width: 991px){
+  .preview {
     width: 100%;
   }
-
-  @media screen and (min-width: 991px){
-     div {
-      margin: 1%;
-      width: 100%;
-    }
-
-    @media screen and (min-width: 575px){
-       div {
-         margin: 1%;
-         width: 100%;
-       }
-       
+}
