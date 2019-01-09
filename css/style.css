@@ -62,6 +62,6 @@ h1.emphasis {
 
 @media screen and (min-width: 991px){
   .preview {
-    width: 100%;
+    width: 50%;
   }
 }
